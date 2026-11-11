@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "generated": "2026-11-11T19:31:34.741Z",
+  "orientation": "row0-south",
+  "projection": "equirectangular",
+  "textures": {
+    "water": {
+      "8k": {
+        "file": "textures/8k/water.ktx2",
+        "png": "data-work/8k/water.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "linear",
+        "encoding": "etc1s",
+        "bytes": 478755,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/water.ktx2",
+        "png": "data-work/4k/water.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "linear",
+        "encoding": "etc1s",
+        "bytes": 220369,
+        "gpuBytes": 11184811
+      }
+    },
+    "day": {
+      "8k": {
+        "file": "textures/8k/day.ktx2",
+        "png": "data-work/8k/day.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "srgb",
+        "encoding": "uastc",
+        "bytes": 14473468,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/day.ktx2",
+        "png": "data-work/4k/day.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "srgb",
+        "encoding": "uastc",
+        "bytes": 3866951,
+        "gpuBytes": 11184811
+      }
+    },
+    "night": {
+      "8k": {
+        "file": "textures/8k/night.ktx2",
+        "png": "data-work/8k/night.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "srgb",
+        "encoding": "uastc",
+        "bytes": 11565253,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/night.ktx2",
+        "png": "data-work/4k/night.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "srgb",
+        "encoding": "uastc",
+        "bytes": 2662100,
+        "gpuBytes": 11184811
+      }
+    },
+    "clouds": {
+      "8k": {
+        "file": "textures/8k/clouds.ktx2",
+        "png": "data-work/8k/clouds.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "srgb",
+        "encoding": "etc1s",
+        "bytes": 6031320,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/clouds.ktx2",
+        "png": "data-work/4k/clouds.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "srgb",
+        "encoding": "etc1s",
+        "bytes": 1600387,
+        "gpuBytes": 11184811
+      }
+    },
+    "stars": {
+      "8k": {
+        "file": "textures/8k/stars.ktx2",
+        "png": "data-work/8k/stars.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "srgb",
+        "encoding": "etc1s",
+        "bytes": 6485373,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/stars.ktx2",
+        "png": "data-work/4k/stars.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "srgb",
+        "encoding": "etc1s",
+        "bytes": 1651362,
+        "gpuBytes": 11184811
+      }
+    },
+    "normal": {
+      "8k": {
+        "file": "textures/8k/normal.ktx2",
+        "png": "data-work/8k/normal.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "linear",
+        "encoding": "uastc",
+        "bytes": 10095775,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/normal.ktx2",
+        "png": "data-work/4k/normal.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "linear",
+        "encoding": "uastc",
+        "bytes": 2458642,
+        "gpuBytes": 11184811
+      }
+    },
+    "height": {
+      "8k": {
+        "file": "textures/8k/height.ktx2",
+        "png": "data-work/8k/height.png",
+        "width": 8192,
+        "height": 4096,
+        "colorSpace": "linear",
+        "encoding": "uastc",
+        "bytes": 5656377,
+        "gpuBytes": 44739243
+      },
+      "4k": {
+        "file": "textures/4k/height.ktx2",
+        "png": "data-work/4k/height.png",
+        "width": 4096,
+        "height": 2048,
+        "colorSpace": "linear",
+        "encoding": "uastc",
+        "bytes": 1718779,
+        "gpuBytes": 11184811
+      }
+    }
+  },
+  "idmap": {
+    "8k": {
+      "file": "idmap/idmap_8k.png",
+      "width": 8192,
+      "height": 4096,
+      "encoding": "id = R + 256·G",
+      "orientation": "row0-north"
+    },
+    "4k": {
+      "file": "idmap/idmap_4k.png",
+      "width": 4096,
+      "height": 2048,
+      "encoding": "id = R + 256·G",
+      "orientation": "row0-north"
+    }
+  },
+  "files": {
+    "borders50": "vectors/borders50.bin",
+    "borders10": "vectors/borders10.bin",
+    "coast50": "vectors/coast50.bin",
+    "coast10": "vectors/coast10.bin",
+    "countries10": "vectors/countries10.bin",
+    "countries": "countries.json",
+    "cities": "cities.json"
+  },
+  "params": {
+    "reliefExaggerationDefault": 10,
+    "reliefExaggerationBaked": 10,
+    "heightMaxMeters": 9000
+  },
+  "attribution": [
+    {
+      "name": "NASA",
+      "what": "Blue Marble NG, Black Marble, Blue Marble Clouds, Deep Star Maps, GIBS"
+    },
+    {
+      "name": "Natural Earth",
+      "what": "границы, береговая линия, города"
+    },
+    {
+      "name": "GEBCO",
+      "what": "GEBCO 2026 Grid (рельеф и батиметрия)"
+    },
+    {
+      "name": "World Bank",
+      "what": "население, площадь, ВВП"
+    },
+    {
+      "name": "Wikidata",
+      "what": "столицы"
+    }
+  ]
+}
